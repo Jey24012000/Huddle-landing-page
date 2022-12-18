@@ -1,0 +1,35 @@
+.main-container{
+    height: 100vh;
+    background-image: url('../images/bg-desktop.svg');
+    display: flex;
+}
+.section-main{
+    background-image: none;
+    width: 50%;
+    height: 90%;
+    max-width: none;
+    display: flex;
+    justify-content: start;
+}
+.logo{
+    width: 240px;
+}
+.section-register{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.register--button{
+    text-align: center;
+}
+.section-social_media{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}

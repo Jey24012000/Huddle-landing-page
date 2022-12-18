@@ -96,13 +96,17 @@ body{
 
 .social_media--facebook .social_media--twitter .social_media--instagram, .ionicon{
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 36px;
+    height: 36px;
     margin: 8px;
+    padding: 6px;
     fill: var(--words-color);
+    border: 2px solid white;
+    border-radius: 50%;
 }
 .social_media--facebook .social_media--twitter .social_media--instagram, .ionicon:hover{
     fill: var(--active-color);
+    border: 2px solid var(--active-color) ;
 }
 
 
